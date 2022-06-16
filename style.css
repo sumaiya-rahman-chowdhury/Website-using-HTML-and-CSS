@@ -1,0 +1,101 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:arial;
+}
+.wrapper{
+	margin:0px auto;
+	width:100%;
+}
+.main{
+	width:100%;
+	float:left;
+	height:100vh;
+	background-image:url(img/nature.jpg);
+	background-size:100%;
+	overflow:hidden;
+}
+.nav{
+	list-style-type:none;
+	float:left;
+	background-color:rgba(0,0,0,.5);
+}
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	display:block;
+	float:left;
+	
+}
+li{
+	float:left;
+	border-right: 1px solid #bbb;
+}
+li:last-child{
+	
+}
+a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	padding:24px 56px;
+	text-decoration:none;
+	font-size:20px;
+	
+}
+a:hover{
+	background-color:#a5aa05;
+	color:#333;
+}
+.search{
+	float:right;	
+}
+ .search input{
+	
+	width:300px;
+	height:30px;
+	margin:20px 20px 0px 0px;
+	border-radius:15px;
+	border:1px solid #fff;
+	background-color:rgba(255,255,255,.2);
+	opacity:.5;
+	padding-left:20px;
+}
+.content{
+	width:100%;
+	float:left;
+}
+article{
+	width:13.5%;
+	margin-left:10%;
+	background-color:rgba(255,255,0,.25);
+	color:#000;
+	display:block;
+	float:left;
+	text-align:center;
+	padding:50px 50px 0px 50px;
+	margin-top:300px;
+	height:800px;
+	font-size:18px;
+	border-radius:40px 40px 0px 0px;
+}
+article:hover{
+	background-color:#fff;
+	color:#000;
+	margin-top:200px;
+}
+p{
+	text-align:justify;
+	font-style:italic;
+}
+h1{
+	font-family: 'Kanit', sans-serif
+}
+button{
+	margin-right:50px;
+	background-color:pink;
+	
+	
+}
